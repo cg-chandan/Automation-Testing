@@ -26,5 +26,7 @@ public class Gradecalculator {
         }
 
         System.out.println("Grade is :"+ grade);
+        scanner.close();
+
     }
 }
