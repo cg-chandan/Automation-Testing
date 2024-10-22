@@ -5,7 +5,8 @@ public class Guesstriangle {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        Double side1,side2,side3;
+        side = scanner.nextDouble();
         System.out.println("Enter the lengths of the three sides of the triangle:");
 
             System.out.println("The triangle is equilateral.");
