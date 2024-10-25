@@ -7,9 +7,9 @@ public class Reverse_number {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         num = scanner.nextInt();
-        for (int i = 0; i < num.length; i++) {
-
-        }
+//        for (int i = 0; i < num.length; i++) {
+//
+//        }
 
     }
 }
