@@ -3,15 +3,12 @@ import java.util.Scanner;
 
 public class Reverse_number {
     public static void main(String[] args) {
-        int num;
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number");
-        num = scanner.nextInt();
-        System.out.println("ENter new");
-        System.out.println("ENter new");
-//        for (int i = 0; i < num.length; i++) {
-//
-//        }
+        int num=12345,reverse = 0;
+        for(;num!=0;num = num/10){
+           int remainder = num % 10;
+            reverse =  reverse*10 +remainder;
+        }
+        System.out.println("Reverse of given number is:"+reverse);
 
     }
 }
