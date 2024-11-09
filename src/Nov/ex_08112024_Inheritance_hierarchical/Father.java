@@ -1,4 +1,4 @@
-package Nov.ex_08112024_Inheritance.hierarchical;
+package Nov.ex_08112024_Inheritance_hierarchical;
 
 public class Father {
     void home(){
