@@ -13,8 +13,12 @@ public class Exception_Handling {
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
-        s1 = null;
-        System.out.println(s1);
+        try{
+            String a = null;
+        }
+        catch(NullPointerException e){
+            System.out.println(e.getMessage());
+        }
 
     }
 }
